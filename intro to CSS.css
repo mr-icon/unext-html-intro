@@ -1,0 +1,78 @@
+/*Element seletors */
+/*Element seletors are html tags such as h1-h6, p, footer E.T.C */
+h2 {
+    font-size: 24px;/* this are called declarations*/
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 12px;
+    text-align: left;
+    color: green;
+}
+/*html attribute are class and id  and how to view source code(right click then click view page source code) how to inspect ( you highlight a section than right click and then click inpspect to view the html use for a certain line*/
+.sdfg{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    color:#ff0000;
+}
+#dddd{
+    text-align: left;
+    color:purple;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+/* a univerisal seletor, what ever you set in here will affect the program*/
+*{
+    background-color: #fff; 
+    background-image: url(image/2.png);
+    background-repeat: no-repeat;
+    /* background-attachment:; */
+    /* if your background image is more than 1mb it will be heavy and it will be slowing down your user*/
+}
+.cd{
+ width: 300px;
+ border: 15px solid #008000;
+ padding: 50px;
+ margin: 20px;    
+}
+p{
+    border: 1px solid #000000;
+    border-radius: 20px;
+    border-top: none;
+    border-bottom: 10px;
+    border-left: none;
+    border-right-width: 2px;
+}
+.ccp{
+    border: 2px solid #ff0000;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 50px;
+}
+.fgh{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #008000;
+    border-radius: 12px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+}
+.mylist{
+list-style-type: upper-roman;
+list-style-image: url('image/PhotoGrid_1593078755353.jpg');
+list-style-position: inside;
+}
+.bbb{
+    position: absolute;
+    border: 2px solid#000000;
+    left: 100px;
+    top: 120px;
+}
+.kby{
+    position: relative;
+    left: 150px;
+    top: 90px;
+}
